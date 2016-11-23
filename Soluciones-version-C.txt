@@ -1,15 +1,18 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
-
+- Es bastante más complicado que el anterior porque aunque tiene en cuenta los casos por separado, el fujo del código  es difícil de seguir.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
+- Es difícil saberlo, ya que al estar divididdo tanto el código en métodos, no se puede saber con tanta claridad como en la versión B,
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- Tampoco se puede saber debido a la fragmentación del código.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- No se puede saber con claridad ya que cada método se corresponde con un fragmento de la cadena.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
-
+- Tampoco podemos saberlo porque el flujo del código es bastante enrevesado.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
-
+- Tendrá un alto coste ya que los métodos tienen un nombre muy específico, y además al haber tantos métodos habría que modificar bastantes cosas.
