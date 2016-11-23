@@ -1,6 +1,10 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
 -El verse me parece dificil. No sabía que se podía hacer eso con el format.
 
+-En una escala de 0 a 10; un 7, ya que tiene mucha interpolación y es complicado a la hora de "picar" el código.
+-Es una solución más compleja y compacta, lo que indica que el usuario que la ha programado maneja bastante bien python.
+Esto le ayuda a conseguir una solución apta para todos los casos en unas pocas líneas.
+
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
 -Es difícil saber cuántas variantes hay, porque hay muchas condiciones.
