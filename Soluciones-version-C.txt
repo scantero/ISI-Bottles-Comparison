@@ -2,11 +2,12 @@
 -Es muy lioso, fragmenta demasiado la solución, lo cual lo hace difícil de seguir y complica la solución. Por una parte, la clase Bottles es sencilla
 de entender, pero lo complica todo en la función 'verse()', que utiliza la clase Round para configurar los versos por la gran fragmentación.
 El flujo es muy complicado, porque cada llamada requiere muchos pasos pequeños.
-
+-De escribir, fácil, porque los métidos son sencillos y rápidos.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
-
+-Es bastante dificil de seguir, tienes que leerlo muchas veces, y subir y bajar muchas veces en el código para
+  ver las cosas.
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
