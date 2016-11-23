@@ -1,5 +1,9 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
--- Veo el código mas rebuscado , nuevos conocimientos de punteros a función(lambda).
+-Me resulta difícil de entender... Por una parte, el hecho de poner las diferentes versiones de las frases de la canción al principio para llamarlas
+directamente ayuda a ver de forma más sencilla las diferentes opciones según los números de los versos, pero para poder utilizar esto, necesita crear dos
+clases diferentes en lugar de una sola. No es nada sencillo de seguir los pasos que sigue cada llamada al método 'verse()'. En mi opinión el código en sí no
+ha sido muy difícil de escribir porque no tiene muchas operaciones complejas, pero el esquema sí me lo parece.
+-Veo el código mas rebuscado , nuevos conocimientos de punteros a función(lambda).
 -Un poco difícil, el flujo es un poco enrevesado. Los versos sin embargo se ven mucho mejor que en el A.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
