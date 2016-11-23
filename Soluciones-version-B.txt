@@ -1,15 +1,39 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
 -- Veo el código mas rebuscado , nuevos conocimientos de punteros a función(lambda).
+- Es un poco difícil porque el flujo que sigue el código es un poco complicado de seguir, pero es más sencillo ver los tipos de versos que hay, a diferencia de la versión A.
+-Me resulta difícil de entender... Por una parte, el hecho de poner las diferentes versiones de las frases de la canción al principio para llamarlas
+directamente ayuda a ver de forma más sencilla las diferentes opciones según los números de los versos, pero para poder utilizar esto, necesita crear dos
+clases diferentes en lugar de una sola. No es nada sencillo de seguir los pasos que sigue cada llamada al método 'verse()'. En mi opinión el código en sí no
+ha sido muy difícil de escribir porque no tiene muchas operaciones complejas, pero el esquema sí me lo parece.
+-Veo el código mas rebuscado , nuevos conocimientos de punteros a función(lambda).
+-Un poco difícil, el flujo es un poco enrevesado. Los versos sin embargo se ven mucho mejor que en el A.
+
+
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
 -- Existe 4 versiones de verse, contando funciones lambda.
+-- Existe 4 versiones de verse
+- Las variantes de verso que hay son 4, se ven claramente en la clase Bottles, lo que en este caso, hace más legible el código.
+-Hay 4 versiones, las 4 primears lambdas. Se distingue muy bien.
+
+b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- A diferencia del anterior, también es más fácil observar que los versos más frecuentes son los de Default.
+-En este caso si lo pdemos ver bien. En el método verse_for se ve que los versos de Default son los más frecuentes.
+
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
 -- El verso más frecuente ( Bottles.Default).
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- El verso más diferente sería el de NoMore, pero también tiene bastantes cambios LastOne.
+-El NoMore es el más diferente. Cambian varias frases. El LastOne también es un poco diferente, también cambian algunas frases.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
-
+-Esto se pude ver con claridad en el método verse_for ya que en función del número que se le pase, va a entrar en una condición o en otra.
+-Se ve bastante bien en el método verse_for. Dependiendo de number, eliges un verso u otro.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+
 --El coste es menor al estar parametrizado , solo bastaría con añadir nuevos parametros a la funcion que gestiona esa condición.
+- A diferencia del anterior, en esta versión  sería más fácil introducir nuevas funcionalidades ya que el código está más claro.
+-No creo que tenga mucho coste, porque todo está bien definido y esquematizado, al contrario que el anterior.
+-Tan sólo habría que cambiar la definición de las frases al principio, el resto no es necesario tocarlo, por lo que el coste es mínimo.
