@@ -21,3 +21,6 @@ d) ¿Qué regla determina el verso que viene a continuación? Explícalo en func
 
 Para poder ejecutar el archivo de test, ya que usa Bottles.py:
 cp BottlesX.py Bottles.py donde X es la versión de código que quieras usar.
+
+
+----> Requisito nuevo: cuando aparezca "6 bottles of beer", cambiarlo por "1 six-pack of beer"
