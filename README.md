@@ -19,5 +19,5 @@ d) ¿Qué regla determina el verso que viene a continuación? Explícalo en func
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
 
 
-Para poder ejecutar el archivo de test, ya que usa Bottles.py:
-cp BottlesX.py Bottles.py donde X es la versión de código que quieras usar.
+<b>Para poder ejecutar el archivo de test, ya que usa Bottles.py:
+cp BottlesX.py Bottles.py donde X es la versión de código que quieras usar.</b>
