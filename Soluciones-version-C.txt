@@ -1,15 +1,31 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
+<<<<<<< HEAD
 -De escribir, fácil, porque los métidos son sencillos y rápidos.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
 -Es bastante dificil de seguir, tienes que leerlo muchas veces, y subir y bajar muchas veces en el código para
   ver las cosas.
+=======
+-Es muy difícil. Está todo muy separado y es muy difícil de seguir el flujo.
+
+2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
+a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es muy difícil de diferenciarlas porque hay muchos métodos que influyen en él.
+
+>>>>>>> solC
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es muy difícil saberlo porque es difícil hasta saber cuál es el verso.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es muy difícil, es difícil saber hasta que versos hay
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es muy difícil saberlo por las mismas razones.
 
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+<<<<<<< HEAD
+=======
+-Es un coste muy alto, porque hay que cambiar hasta el nombre de los métodos.
+>>>>>>> solC
