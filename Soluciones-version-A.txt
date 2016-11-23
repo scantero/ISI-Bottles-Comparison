@@ -4,6 +4,7 @@
 -En una escala de 0 a 10; un 7, ya que tiene mucha interpolación y es complicado a la hora de "picar" el código.
 -Es una solución más compleja y compacta, lo que indica que el usuario que la ha programado maneja bastante bien python.
 Esto le ayuda a conseguir una solución apta para todos los casos en unas pocas líneas.
+-Me parece que es un código que no es fácil de escribir ya que está comprimido en pocas líneas.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
