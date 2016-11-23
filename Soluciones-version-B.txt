@@ -1,9 +1,8 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
-
-
+-- Veo el código mas rebuscado , nuevos conocimientos de punteros a función(lambda).
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
-
+-- Existe 4 versiones de verse
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
