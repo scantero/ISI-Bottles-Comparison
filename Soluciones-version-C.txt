@@ -1,4 +1,7 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
+-Es muy lioso, fragmenta demasiado la solución, lo cual lo hace difícil de seguir y complica la solución. Por una parte, la clase Bottles es sencilla
+de entender, pero lo complica todo en la función 'verse()', que utiliza la clase Round para configurar los versos por la gran fragmentación.
+El flujo es muy complicado, porque cada llamada requiere muchos pasos pequeños.
 -De escribir, fácil, porque los métidos son sencillos y rápidos.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
@@ -13,3 +16,8 @@ d) ¿Qué regla determina el verso que viene a continuación? Explícalo en func
 
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+-El coste para un cambio pequeño, por ejemplo modificar 'beer' por 'milk', sería muy bajo, tan sólo habría que modificar un método.
+La pega es que los nombres utilizados para los métodos no son nada generalizados, por lo que los cambios como el anterior estropearian la lectura
+del código al no ser nombres bien elegidos, significativos pero no particularizados.
+El coste por otra parte sería muy alto en otros casos, porque en el ejemplo de hacer cambios significativos en los versos habría que modificar
+hasta 7 métodos diferentes.
