@@ -12,6 +12,10 @@
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
 -Hay cuatro variantes, pero en este caso es un poco complicado verlo claramente ya que para cada línea del verso nos encontramos con al menos dos condiciones.
 -Es difícil saber cuántas variantes hay, porque hay muchas condiciones.
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Contando los "ifs" existe al menos 5 variantes .
+=======
 -Yo creo que en la función verse hay:
   3 versiones para la primera línea
   1 para la segunda línea
@@ -20,6 +24,7 @@ a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada
   3 para la quinta
   1 para la sexta
 - Contando los "ifs" existe al menos 5 variantes.
+>>>>>>> refs/remotes/origin/master
 -No me parece fácil de ver cuantas versiones. Sólo se ven 's' y 'no more' con distintos if.
 -Nerea:
 	A simple vista parece que hay múltiples variantes de los versos por la estructura de los "if"; sin embargo, tras obsverbar el código minuciosamente parece que sólo hay tres versiones, en función del valor n:
@@ -34,6 +39,10 @@ a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada
 			-n-1< 0, es decir, n=0 escribe "99"
 			-n-1 == 0, es decir, n=1 escribe "no more"
 			-para el resto de casos, es decir, n>1, escribe "n-1"
+
+- Contando los "ifs" existe al menos 5 variantes .
+-No me parece fácil de ver cuantas versiones. Sólo se ven 's' y 'no more' con distintos if.
+-Tampoco me es fácil de averiguar cuántas versiones hay.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
 -Los versos más frecuentes mirando el código, serían los que el número que se pasa como parámetro al método es mayor que 1, aún así es difícil saberlo.
