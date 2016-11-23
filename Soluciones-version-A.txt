@@ -1,0 +1,20 @@
+1. ¿Cómo de difícil crees que fue escribir este código?
+-El verse me parece dificil. No sabía que se podía hacer eso con el format.
+
+
+2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
+a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es difícil saber cuántas variantes hay, porque hay muchas condiciones.
+
+b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es difícil saber cuáles son los versos más frecuentes porque hay muchas condiciones.
+
+c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es difícil saber cuales son diferentes, de hecho es dificil hasta saber cuál es el verso. Hay muchos string separados con .format y eso
+lo hace difícil.
+
+d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es difícil saberlo porque es dificil saber cuál es el verso en sí.
+
+3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+-Un coste muy alto. Es difícil saber localizar un verso, como para tener que implementar algo nuevo.
