@@ -1,4 +1,5 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
+-En una escala de 0 a 10; un 7, ya que tiene mucha interpolación y es complicado a la hora de "picar" el código.
 
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
