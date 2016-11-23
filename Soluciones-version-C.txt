@@ -4,6 +4,7 @@ de entender, pero lo complica todo en la función 'verse()', que utiliza la clas
 El flujo es muy complicado, porque cada llamada requiere muchos pasos pequeños.
 -De escribir, fácil, porque los métidos son sencillos y rápidos.
 -Es muy difícil. Está todo muy separado y es muy difícil de seguir el flujo.
+- Es bastante más complicado que el anterior porque aunque tiene en cuenta los casos por separado, el fujo del código  es difícil de seguir.
 
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
@@ -11,15 +12,19 @@ a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada
 -Es bastante dificil de seguir, tienes que leerlo muchas veces, y subir y bajar muchas veces en el código para
   ver las cosas.
 -Es muy difícil de diferenciarlas porque hay muchos métodos que influyen en él.
+- Es difícil saberlo, ya que al estar divididdo tanto el código en métodos, no se puede saber con tanta claridad como en la versión B.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
 -Es muy difícil saberlo porque es difícil hasta saber cuál es el verso.
+- Tampoco se puede saber debido a la fragmentación del código.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
 -Es muy difícil, es difícil saber hasta que versos hay
+- No se puede saber con claridad ya que cada método se corresponde con un fragmento de la cadena.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
 -Es muy difícil saberlo por las mismas razones.
+- Tampoco podemos saberlo porque el flujo del código es bastante enrevesado.
 
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
@@ -30,3 +35,4 @@ La pega es que los nombres utilizados para los métodos no son nada generalizado
 del código al no ser nombres bien elegidos, significativos pero no particularizados.
 El coste por otra parte sería muy alto en otros casos, porque en el ejemplo de hacer cambios significativos en los versos habría que modificar
 hasta 7 métodos diferentes.
+- Tendrá un alto coste ya que los métodos tienen un nombre muy específico, y además al haber tantos métodos habría que modificar bastantes cosas.
