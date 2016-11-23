@@ -5,17 +5,18 @@ clases diferentes en lugar de una sola. No es nada sencillo de seguir los pasos 
 ha sido muy difícil de escribir porque no tiene muchas operaciones complejas, pero el esquema sí me lo parece.
 -Veo el código mas rebuscado , nuevos conocimientos de punteros a función(lambda).
 -Un poco difícil, el flujo es un poco enrevesado. Los versos sin embargo se ven mucho mejor que en el A.
+- Este código parece más sencillo que el anterior, aunque no conocía la funcionalidad de la "lambda".
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
--- Existe 4 versiones de verse
--Hay 4 versiones, las 4 primears lambdas. Se distingue muy bien.
+-Hay 4 versiones, las 4 primeras lambdas, nombradas: "NoMore", "LastOne", "Penultimate" y "Default". Se distingue muy bien.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
--En este caso si lo pdemos ver bien. En el método verse_for se ve que los versos de Default son los más frecuentes.
+-En este caso si lo podemos ver bien. En el método verse_for se ve que los versos de Default son los más frecuentes, como bien su nombre indica.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
--El NoMore es el más diferente. Cambian varias frases. El LastOne también es un poco diferente, también cambian algunas frases.
+-El NoMore es el más diferente, ya que cambian varias frases.
+-El LastOne también es un poco diferente, pero cambian menos frases.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
 -Se ve bastante bien en el método verse_for. Dependiendo de number, eliges un verso u otro.
