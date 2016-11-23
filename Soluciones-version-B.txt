@@ -1,13 +1,20 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
 -- Veo el código mas rebuscado , nuevos conocimientos de punteros a función(lambda).
+- Es un poco difícil porque el flujo que sigue el código es un poco complicado de seguir, pero es más sencillo ver los tipos de versos que hay, a diferencia de la versión A.
+
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
 -- Existe 4 versiones de verse
+- Las variantes de verso que hay son 4, se ven claramente en la clase Bottles, lo que en este caso, hace más legible el código.
+
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- A diferencia del anterior, también es más fácil observar que los versos más frecuentes son los de Default.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- El verso más diferente sería el de NoMore, pero también tiene bastantes cambios LastOne.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
-
+-Esto se pude ver con claridad en el método verse_for ya que en función del número que se le pase, va a entrar en una condición o en otra.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+- A diferencia del anterior, en esta versión  sería más fácil introducir nuevas funcionalidades ya que el código está más claro.
