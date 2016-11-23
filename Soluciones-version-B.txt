@@ -22,3 +22,4 @@ d) ¿Qué regla determina el verso que viene a continuación? Explícalo en func
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
 -No creo que tenga mucho coste, porque todo está bien definido y esquematizado, al contrario que el anterior.
+-Tan sólo habría que cambiar la definición de las frases al principio, el resto no es necesario tocarlo, por lo que el coste es mínimo.
