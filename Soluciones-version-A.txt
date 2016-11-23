@@ -1,11 +1,15 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
+-Es difícil ya que el código es válido para todos los test pero está recogido en muy pocas líneas.
 -El verse me parece dificil. No sabía que se podía hacer eso con el format.
 -En una escala de 0 a 10; un 7, ya que tiene mucha interpolación y es complicado a la hora de "picar" el código.
 -Es una solución más compleja y compacta, lo que indica que el usuario que la ha programado maneja bastante bien python.
-Esto le ayuda a conseguir una solución apta para todos los casos en unas pocas líneas.
+  Esto le ayuda a conseguir una solución apta para todos los casos en unas pocas líneas.
+-Poco legible , sin embargo código mas corto.
+-Me parece que es un código que no es fácil de escribir ya que está comprimido en pocas líneas.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
+-Hay cuatro variantes, pero en este caso es un poco complicado verlo claramente ya que para cada línea del verso nos encontramos con al menos dos condiciones.
 -Es difícil saber cuántas variantes hay, porque hay muchas condiciones.
 -Yo creo que en la función verse hay:
   3 versiones para la primera línea
@@ -14,16 +18,25 @@ a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada
   3 para la cuarta
   3 para la quinta
   1 para la sexta
+-No me parece fácil de ver cuantas versiones. Sólo se ven 's' y 'no more' con distintos if.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+-Los versos más frecuentes mirando el código, serían los que el número que se pasa como parámetro al método es mayor que 1, aún así es difícil saberlo.
 -Es difícil saber cuáles son los versos más frecuentes porque hay muchas condiciones.
+-El que acaba en "take one down and pass ir around". Siempre que n>1, es decir, salvo 0 y 1, va a ser siempre (hasta 99 según la
+última línea del código)
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+-Es complicado saber qué versos son los más diferentes ya que hay muchas condiciones para construir el verso.
 -Es difícil saber cuales son diferentes, de hecho es dificil hasta saber cuál es el verso. Hay muchos string separados con .format y eso
 lo hace difícil.
+-El "no more bottles of beer...", son direferente al resto sólo cuando n sea 0.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
+- No se puede saber con facilidad porque tiene muchas condiciones el código.
 -Es difícil saberlo porque es dificil saber cuál es el verso en sí.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
--Un coste muy alto. Es difícil saber localizar un verso, como para tener que implementar algo nuevo.
+  -Tendría gran coste ya que es complicado visualizar el string, por lo tanto realizar cambios es una tarea complicada.
+  -Un coste muy alto. Es difícil saber localizar un verso, como para tener que implementar algo nuevo.
+  -Muy poco, ya que el código como tal coge todas las opciones.
