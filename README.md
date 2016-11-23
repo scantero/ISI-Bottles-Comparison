@@ -17,3 +17,6 @@ Comparar cuatro soluciones a Bottles_test.py respondiendo a las siguientes pregu
 
 
 ###3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+
+Para poder ejecutar el archivo de test, ya que usa Bottles.py:
+cp BottlesX.py Bottles.py donde X es la versión de código que quieraas usar.
