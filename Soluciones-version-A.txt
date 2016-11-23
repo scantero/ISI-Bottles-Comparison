@@ -1,14 +1,18 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
-
+- Es difícil ya que el código es válido para todos los test pero está recogido en muy pocas líneas.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
+- Hay cuatro variantes, pero en este caso es un poco complicado verlo claramente ya que para cada línea del verso nos encontramos con al menos dos condiciones.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- Los versos más frecuentes mirando el código, serían los que el número que se pasa como parámetro al método es mayor que 1, aún así es difícil saberlo.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- Es complicado saber qué versos son los más diferentes ya que hay muchas condiciones para construir el verso.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
-
+- No se puede saber con facilidad porque tiene muchas condiciones el código.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+- Tendría gran coste ya que es complicado visualizar el string, por lo tanto realizar cambios es una tarea complicada.
