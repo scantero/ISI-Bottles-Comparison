@@ -1,17 +1,19 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
 -En una escala de 0 a 10; un 7, ya que tiene mucha interpolación y es complicado a la hora de "picar" el código.
 -Es una solución más compleja y compacta, lo que indica que el usuario que la ha programado maneja bastante bien python.
-Esto le ayuda a conseguir una solución apta para todos los casos en unas pocas líneas. 
+Esto le ayuda a conseguir una solución apta para todos los casos en unas pocas líneas.
 
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
-
+  -No me parece fácil de ver cuantas versiones. Sólo se ven 's' y 'no more' con distintos if.
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
-
+  -El que acaba en "take one down and pass ir around". Siempre que n>1, es decir, salvo 0 y 1, va a ser siempre (hasta 99 según la
+  última línea del código)
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
-
+  -El "no more bottles of beer...", son direferente al resto sólo cuando n sea 0.
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
-
+  -Si el número es cero, uno o mayor que uno, con cada una de las opciones va a ser un verso distinto.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+  -Muy poco, ya que el código como tal coge todas las opciones.
