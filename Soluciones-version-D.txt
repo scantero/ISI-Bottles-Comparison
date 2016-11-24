@@ -1,14 +1,18 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
-
+- Este código es el más sencillo de todas las opciones ya que el flujo del programa es fácil de seguir.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
+- En este caso hay cuatro variantes de verso ya que en el método de verse se puede observar las cuatro condiciones para cada tipo de verso.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- Los versos más frecuentes serán los que cumplen la condición del else ya que las tres primeras condiciones son para tres números, y el else es para el resto de números.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+- Los versos más diferentes son los de los casos del número 0 y 1.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
-
+- El verso que viene a continuación lo determina el if del método verse.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+- Sería un poco complicado ya que el código recoge unos casos bastante concretos, cuando se introduzca alguna funcionalidad nueva se complicará el código.
