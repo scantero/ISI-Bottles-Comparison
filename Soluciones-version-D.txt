@@ -1,14 +1,19 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
+-Fácil. Básicamente es copiar y pegar los versos. El flujo es sencillo de seguir.
 
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
+-4 variantes de versos. Se distinguen claramente en el método verse.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
+-El verso 4, el de la rama del else. Se ve claramente en el bucles de verses
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
+-Para n = 0 y para n = 1. Cambian en alguna frase con respecto a los otros dos.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
-
+-Un if en el verse. Se ve muy claro que dependiendo del n, será un verso u otro.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
+-Será un poco difícil, ya que es muy simple.
