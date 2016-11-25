@@ -1,25 +1,31 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
--Fácil. Básicamente es copiar y pegar los versos. El flujo es sencillo de seguir.
+- Fácil. Básicamente es copiar y pegar los versos. El flujo es sencillo de seguir.
 - Este código es el más sencillo de todas las opciones ya que el flujo del programa es fácil de seguir.
+- Creo que este código fue el más sencillo de escribir; es más, es prácticamente igual al que escribí yo en la primera clase.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
 - En este caso hay cuatro variantes de verso ya que en el método de verse se puede observar las cuatro condiciones para cada tipo de verso.
--4 variantes de versos. Se distinguen claramente en el método verse.
+- 4 variantes de versos. Se distinguen claramente en el método verse.
+- Hay cuatro variantes de verso, que se pueden ver muy fácilmente en la sentencia "if" del método "verse".
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
--El verso 4, el de la rama del else. Se ve claramente en el bucles de verses.
+- El verso 4, el de la rama del else. Se ve claramente en el bucles de verses.
 - Los versos más frecuentes serán los que cumplen la condición del else ya que las tres primeras condiciones son para tres números, y el else es para el resto de números.
-
+- Los versos más frecuentes son los de la rama "else" del método "verse", válida para los números del 3 al 99.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
 -Para n = 0 y para n = 1. Cambian en alguna frase con respecto a los otros dos.
 - Los versos más diferentes son los de los casos del número 0 y 1.
+- Los versos más diferentes son los de number==1, ya que la frase es la más distinta.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
--Un if en el verse. Se ve muy claro que dependiendo del n, será un verso u otro.
+- Un if en el verse. Se ve muy claro que dependiendo del n, será un verso u otro.
 - El verso que viene a continuación lo determina el if del método verse.
+- El número de cervezas, "number", determina qué estrofa es la siguiente, según la sentencia "if" del método "verse".
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
--Será un poco difícil, ya que es muy simple.
+- Será un poco difícil, ya que es muy simple.
 - Sería un poco complicado ya que el código recoge unos casos bastante concretos, cuando se introduzca alguna funcionalidad nueva se complicará el código.
+- Dependiendo del requisito, podría ser muy fácil o muy difícil: Si se trata de una leve modificación, no creo que requiera gran coste.
+Pero si se trata de modificar mucho la estructura de los versos, habría que cambiar el código y posiblemente generar nuevos métodos, ya que éstos de ahora son muy explícitos para la canción así dada.
