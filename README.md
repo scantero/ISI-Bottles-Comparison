@@ -25,4 +25,5 @@ cp BottlesX.py Bottles.py donde X es la versión de código que quieras usar.
 
 # Requisitos nuevos: 
 ----> Requisito 1: cuando aparezca "6 bottles of beer", cambiarlo por "1 six-pack of beer".
+
 ----> Requisito 2: cambiar "beer" por cualquier otra bebida
