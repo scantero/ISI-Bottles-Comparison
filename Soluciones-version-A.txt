@@ -1,70 +1,64 @@
 1. ¿Cómo de difícil crees que fue escribir este código?
--Es difícil ya que el código es válido para todos los test pero está recogido en muy pocas líneas.
--El verse me parece dificil. No sabía que se podía hacer eso con el format.
--En una escala de 0 a 10; un 7, ya que tiene mucha interpolación y es complicado a la hora de "picar" el código.
--Es una solución más compleja y compacta, lo que indica que el usuario que la ha programado maneja bastante bien python.
+- Es difícil ya que el código es válido para todos los test pero está recogido en muy pocas líneas.
+- El verse me parece dificil. No sabía que se podía hacer eso con el format.
+- En una escala de 0 a 10; un 7, ya que tiene mucha interpolación y es complicado a la hora de "picar" el código.
+- Es una solución más compleja y compacta, lo que indica que el usuario que la ha programado maneja bastante bien python.
   Esto le ayuda a conseguir una solución apta para todos los casos en unas pocas líneas.
--Poco legible , sin embargo código mas corto.
--Me parece que es un código que no es fácil de escribir ya que está comprimido en pocas líneas.
--Nerea: En mi opinión, el código de esta versión A está bastante elaborado, y por tanto, en la primera ojeada parece un poco enrevesado. Creo que no es la primera solución que se le ocurre a uno, sino que tras haber "estudiado" detenidamente la estructura de los versos, se ha ido mejorando la estructura del código.
+- Poco legible , sin embargo código mas corto.
+- Me parece que es un código que no es fácil de escribir ya que está comprimido en pocas líneas.
+- En mi opinión, el código de esta versión A está bastante elaborado, y por tanto, en la primera ojeada parece un poco enrevesado. Creo que no es la primera solución que se le ocurre a uno, sino que tras haber "estudiado" detenidamente la estructura de los versos, se ha ido mejorando la estructura del código.
 
 2. ¿Es difícil entender lo que hace? Leyendo al código trata de encontrar respuesta a estas preguntas:
 a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada versión. Detalla la explicación.
--Hay cuatro variantes, pero en este caso es un poco complicado verlo claramente ya que para cada línea del verso nos encontramos con al menos dos condiciones.
--Es difícil saber cuántas variantes hay, porque hay muchas condiciones.
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Contando los "ifs" existe al menos 5 variantes .
-=======
--Yo creo que en la función verse hay:
+- Hay cuatro variantes, pero en este caso es un poco complicado verlo claramente ya que para cada línea del verso nos encontramos con al menos dos condiciones.
+- Es difícil saber cuántas variantes hay, porque hay muchas condiciones.
+- Contando los "ifs" existe al menos 5 variantes.
+- Yo creo que en la función verse hay:
   3 versiones para la primera línea
   1 para la segunda línea
   3 versiones para la tercera
   3 para la cuarta
   3 para la quinta
   1 para la sexta
-- Contando los "ifs" existe al menos 5 variantes.
->>>>>>> refs/remotes/origin/master
--No me parece fácil de ver cuantas versiones. Sólo se ven 's' y 'no more' con distintos if.
--Nerea:
-	A simple vista parece que hay múltiples variantes de los versos por la estructura de los "if"; sin embargo, tras obsverbar el código minuciosamente parece que sólo hay tres versiones, en función del valor n:
-		En la cuarta y sexta línea distinguimos tres versiones:
-			-Para un n>1 (plural, añade una s), para n=1 (singular, sin s) y para n=0 (añade "no more" en vez del numero, y la s del plural).
-		En la séptima línea del código vemos que hay dos primeras opciones, las cuales acaban resultando una para cada una de esas tres variantes anteriores:
-			-para n>0 escribe una frase con una pequeña variación, según el valor de n:
-				-n>1 escribe "one"
-				-n=1 escribe "it"
-			-para n=0 escribe otra frase distinta.
-		En la octava línea observamos otras tres versiones, que coinciden una para cada una de las variantes anteriormente mencionadas:
-			-n-1< 0, es decir, n=0 escribe "99"
-			-n-1 == 0, es decir, n=1 escribe "no more"
-			-para el resto de casos, es decir, n>1, escribe "n-1"
+- No me parece fácil de ver cuantas versiones. Sólo se ven 's' y 'no more' con distintos if.
+- A simple vista parece que hay múltiples variantes de los versos por la estructura de los "if"; sin embargo, tras obsverbar el código minuciosamente parece que sólo hay tres versiones, en función del valor n:
+  En la cuarta y sexta línea distinguimos tres versiones:
+      -Para un n>1 (plural, añade una s), para n=1 (singular, sin s) y para n=0 (añade "no more" en vez del numero, y la s del plural).
+  En la séptima línea del código vemos que hay dos primeras opciones, las cuales acaban resultando una para cada una de esas tres variantes anteriores:
+      -para n>0 escribe una frase con una pequeña variación, según el valor de n:
+	  -n>1 escribe "one"
+	  -n=1 escribe "it"
+      -para n=0 escribe otra frase distinta.
+  En la octava línea observamos otras tres versiones, que coinciden una para cada una de las variantes anteriormente mencionadas:
+      -n-1< 0, es decir, n=0 escribe "99"
+      -n-1 == 0, es decir, n=1 escribe "no more"
+      -para el resto de casos, es decir, n>1, escribe "n-1"
 
 - Contando los "ifs" existe al menos 5 variantes .
--No me parece fácil de ver cuantas versiones. Sólo se ven 's' y 'no more' con distintos if.
--Tampoco me es fácil de averiguar cuántas versiones hay.
+- No me parece fácil de ver cuantas versiones. Sólo se ven 's' y 'no more' con distintos if.
+- Tampoco me es fácil de averiguar cuántas versiones hay.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
--Los versos más frecuentes mirando el código, serían los que el número que se pasa como parámetro al método es mayor que 1, aún así es difícil saberlo.
--Es difícil saber cuáles son los versos más frecuentes porque hay muchas condiciones.
--El que acaba en "take one down and pass ir around". Siempre que n>1, es decir, salvo 0 y 1, va a ser siempre (hasta 99 según la
+- Los versos más frecuentes mirando el código, serían los que el número que se pasa como parámetro al método es mayor que 1, aún así es difícil saberlo.
+- Es difícil saber cuáles son los versos más frecuentes porque hay muchas condiciones.
+- El que acaba en "take one down and pass ir around". Siempre que n>1, es decir, salvo 0 y 1, va a ser siempre (hasta 99 según la
 última línea del código)
--Nerea: Los versos de la variante n>1 son más frecuentes.
+- Los versos de la variante n>1 son más frecuentes.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
--Es complicado saber qué versos son los más diferentes ya que hay muchas condiciones para construir el verso.
--Es difícil saber cuales son diferentes, de hecho es dificil hasta saber cuál es el verso. Hay muchos string separados con .format y eso
+- Es complicado saber qué versos son los más diferentes ya que hay muchas condiciones para construir el verso.
+- Es difícil saber cuales son diferentes, de hecho es dificil hasta saber cuál es el verso. Hay muchos string separados con .format y eso
 lo hace difícil.
--El "no more bottles of beer...", son direferente al resto sólo cuando n sea 0.
--Nerea: los versos de n=0, puesto que tienen una frase distinta al resto de números.
+- El "no more bottles of beer...", son direferente al resto sólo cuando n sea 0.
+- Los versos de n=0, puesto que tienen una frase distinta al resto de números.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
 - No se puede saber con facilidad porque tiene muchas condiciones el código.
--Es difícil saberlo porque es dificil saber cuál es el verso en sí.
--Nerea: Siempre el valor de n determina el verso que viene a continuación, ya que es la condición de los "if". 
+- Es difícil saberlo porque es dificil saber cuál es el verso en sí.
+- Siempre el valor de n determina el verso que viene a continuación, ya que es la condición de los "if". 
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
-  -Tendría gran coste ya que es complicado visualizar el string, por lo tanto realizar cambios es una tarea complicada.
-  -Un coste muy alto. Es difícil saber localizar un verso, como para tener que implementar algo nuevo.
-  -Muy poco, ya que el código como tal coge todas las opciones.
-  -Nerea: Este código es poco flexible, ya que se basa en que todas las variantes de los versos siguen la misma estructura. Es decir, si el nuevo requisito implica una variante con una estructura distinta, habría que modificar bastante las funciones.
+- Tendría gran coste ya que es complicado visualizar el string, por lo tanto realizar cambios es una tarea complicada.
+- Un coste muy alto. Es difícil saber localizar un verso, como para tener que implementar algo nuevo.
+- Muy poco, ya que el código como tal coge todas las opciones.
+- Este código es poco flexible, ya que se basa en que todas las variantes de los versos siguen la misma estructura. Es decir, si el nuevo requisito implica una variante con una estructura distinta, habría que modificar bastante las funciones.
