@@ -19,8 +19,10 @@ d) ¿Qué regla determina el verso que viene a continuación? Explícalo en func
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
 
 
-Para poder ejecutar el archivo de test, ya que usa Bottles.py:
+NOTA: Para poder ejecutar el archivo de test, ya que usa Bottles.py:
 cp BottlesX.py Bottles.py donde X es la versión de código que quieras usar.
 
 
-----> Requisito nuevo: cuando aparezca "6 bottles of beer", cambiarlo por "1 six-pack of beer"6
+# Requisitos nuevos: 
+----> Requisito 1: cuando aparezca "6 bottles of beer", cambiarlo por "1 six-pack of beer".
+----> Requisito 2: cambiar "beer" por cualquier otra bebida
