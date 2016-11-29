@@ -14,20 +14,25 @@ a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada
 - Es muy difícil de diferenciarlas porque hay muchos métodos que influyen en él.
 - Es difícil saberlo, ya que al estar divididdo tanto el código en métodos, no se puede saber con tanta claridad como en la versión B.
 - Creo que es bastante complicado saberlo con este código porque no está escrito en el "orden lógico" de los versos, y no se aprecia fácilmente qué es lo que hace.
+- Es difícil porque aunque la clase Bottles es muy sencilla, para que fuera así se ha tenido que trasladar la complejidad a la clase Round.
+- Al estar tan fragmentado cada verso no es posible saber a simple vista cuántas variantes de verso hay, y seguir el flujo requiere muchos pasos y es fácil perderse.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
 -Es muy difícil saberlo porque es difícil hasta saber cuál es el verso.
 - Tampoco se puede saber debido a la fragmentación del código.
+- Al no ser posible distinguir cada tipo de verso de forma completa, no se puede saber los versos más frecuentes.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
 - Es muy difícil, es difícil saber hasta que versos hay
 - No se puede saber con claridad ya que cada método se corresponde con un fragmento de la cadena.
 - No sabría responder a esta pregunta sólo con este código.
+- De nuevo, al estar tan fragmentado cada verso, no es posible ver cada tipo, al menos sin estudiar a fondo el código y seguir su flujo para cada caso.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
 - Es muy difícil saberlo por las mismas razones.
 - Tampoco podemos saberlo porque el flujo del código es bastante enrevesado.
 - Creo que la frase justo anterior determina la siguiente parte del verso en la función "def go_to_the_store_or_take_one_down(self):", pero en el resto me resulta imposible sacar una regla.
+- Los métodos challenge() y response() que a su vez llaman a otros métodos para completar el verso.
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
 - Es un coste muy alto, porque hay que cambiar hasta el nombre de los métodos.
