@@ -18,6 +18,7 @@ a) ¿Cuántas variantes de verso hay? Explícalo en función del código de cada
 --Cuatro. La genérica, el ultimo verso, el penúltimo y el "no more"
 --Existe 4 versiones de verse, contando funciones lambda.
 --Hay cuatro variantes, nombradas: "NoMore", "LastOne", "Penultimate" y "Default".
+- Es sencillo de entender gracias a la definición de las variables que corresponden a cada verso, que son 4 y se declaran al principio de una forma bastante fácil de leer.
 
 b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en función del código de cada versión. Detalla la explicación.
 --A diferencia del anterior, también es más fácil observar que los versos más frecuentes son los de Default.
@@ -25,17 +26,20 @@ b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en
 --El default (por su propio nombre, el resto son caracterizaciones)
 --El verso más frecuente ( Bottles.Default).
 --Los versos más frecuentes son los n>2, denominados DEFAULT.
+- Estoy de acuerdo, los más frecuentes se encuentran en la última rama del if, la correspondiente al else.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
 --El verso más diferente sería el de NoMore, pero también tiene bastantes cambios LastOne.
 --El NoMore es el más diferente. Cambian varias frases. El LastOne también es un poco diferente, también cambian algunas frases.
 --Los que no son el default. Cambian los plurales, no hay "0 bottles" sino "no more", etc
 --El verso de tipo "NoMore" es el más diferente, ya que tiene mayor número de frases distintas.
+- Como se pueden leer fácilmente al principio se ve claramente que el verso 0 es el más diferente.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
 --Esto se pude ver con claridad en el método verse_for ya que en función del número que se le pase, va a entrar en una condición o en otra.
 --Se ve bastante bien en el método verse_for. Dependiendo de number, eliges un verso u otro.
 --Según el número inicial de bottellas que tuviéramos.
+- El número de verso, y en el método verse_for() se decide la forma que tendrá en función de ese número.
 
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
