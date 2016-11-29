@@ -44,6 +44,7 @@ b) ¿Qué versos son los más frecuentes? ¿Cuánto de frecuentes? Explícalo en
 - El que acaba en "take one down and pass ir around". Siempre que n>1, es decir, salvo 0 y 1, va a ser siempre (hasta 99 según la
 última línea del código)
 - Los versos de la variante n>1 son más frecuentes.
+- Al dividir los versos en cuatro partes y tener diferentes condiciones en cada parte de cada verso, no es fácil distinguir los versos más frecuentes.
 
 c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explícalo en función del código de cada versión. Detalla la explicación.
 - Es complicado saber qué versos son los más diferentes ya que hay muchas condiciones para construir el verso.
@@ -51,14 +52,17 @@ c) ¿Qué versos son los más diferentes? ¿En qué modo son diferentes? Explíc
 lo hace difícil.
 - El "no more bottles of beer...", son direferente al resto sólo cuando n sea 0.
 - Los versos de n=0, puesto que tienen una frase distinta al resto de números.
+- El verso para n=0, ya que es el que tiene una parte mayor de todo el verso completamente diferente.
 
 d) ¿Qué regla determina el verso que viene a continuación? Explícalo en función del código de cada versión. Detalla la explicación.
 - No se puede saber con facilidad porque tiene muchas condiciones el código.
 - Es difícil saberlo porque es dificil saber cuál es el verso en sí.
-- Siempre el valor de n determina el verso que viene a continuación, ya que es la condición de los "if". 
+- Siempre el valor de n determina el verso que viene a continuación, ya que es la condición de los "if".
+- El número de verso es el que determina la forma del verso que vendrá a continuación, lo cual se evalúa en el método verse().
 
 3. ¿Qué coste crees que tendría cambiar cada versión para aceptar un nuevo requisito?
 - Tendría gran coste ya que es complicado visualizar el string, por lo tanto realizar cambios es una tarea complicada.
 - Un coste muy alto. Es difícil saber localizar un verso, como para tener que implementar algo nuevo.
 - Muy poco, ya que el código como tal coge todas las opciones.
 - Este código es poco flexible, ya que se basa en que todas las variantes de los versos siguen la misma estructura. Es decir, si el nuevo requisito implica una variante con una estructura distinta, habría que modificar bastante las funciones.
+- El coste sería alto por evaluar absolutamente todas las condiciones dentro de un solo método, ya que habría que modificar una gran parte del método verse(), y probablemente cambiar todas sus líneas.
